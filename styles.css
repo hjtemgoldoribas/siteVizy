@@ -1,0 +1,339 @@
+body {
+    background-color: #210D41;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+}
+
+body.contraste {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Estilos para a lupa */
+#texto.fonte-ativa {
+    transition: font-size 0.5s ease;
+    font-size: 2em; /* Defina o tamanho inicial do texto */
+}
+
+
+.texto-ampliado {
+    font-size: 1.5em; /* Exemplo de aumento de 50% no tamanho da fonte */
+    transition: font-size 0.3s ease-in-out;
+}
+
+.img-ampliada {
+    transform: scale(1.5); /* Exemplo de aumento de 50% no tamanho da imagem */
+    transition: transform 0.3s ease-in-out;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+a:hover {
+    color: #CF9DC8;
+    transition: 0.3s all;
+}
+
+#acessibilidade-btn {
+    border: 2px solid #CF9DC8;
+    border-radius: 15px;
+    padding: 5px 20px;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#acessibilidade-btn:hover {
+    background-color: #CF9DC8;
+    color: white;
+}
+
+#acessibilidade-container {
+    position: fixed;
+    top: 80px; /* Ajuste a posição conforme necessário */
+    right: 20px; /* Ajuste a posição conforme necessário */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: #C0C0C0;
+    display: none; /* Inicialmente oculto */
+}
+
+main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 100px auto 0;
+    padding: 0 15px;
+}
+
+h1 {
+    font-size: 10px;
+}
+
+h2 {
+    font-size: 56px;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+}
+span {
+    color: #CF9DC8;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 15px;
+}
+
+form [type="submit"] {
+    height: 40px;
+    width: 50%;
+    font-size: 15px;
+    background-color: #A396C8;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+.fonte-ampliada p,
+.fonte-ampliada h1,
+.fonte-ampliada h2,
+.fonte-ampliada h3,
+.fonte-ampliada h4,
+.fonte-ampliada h5,
+.fonte-ampliada h6,
+.fonte-ampliada li,
+.fonte-ampliada a,
+.fonte-ampliada span {
+    font-size: 1.7em; /* Aumenta o tamanho do texto em 50% */
+    transition: font-size 0.3s ease-in-out;
+}
+
+.container {
+    width: 40%; /* Increased width proportionally */
+    margin: 0 auto;
+    background-color: #C0C0C0;
+    padding: 20px; /* Increased padding proportionally */
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%; /* Increased height proportionally */
+    margin-left:475px;
+}
+form [type="submit"] {
+    height: 40px;
+    width: 50%;
+    font-size: 15px;
+    background-color: #A396C8;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+.container {
+    width: 40%; /* Increased width proportionally */
+    margin: 0 auto;
+    background-color: #C0C0C0;
+    padding: 20px; /* Increased padding proportionally */
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%; /* Increased height proportionally */
+    margin-left: 475px; /* Ajustado conforme seu layout */
+}
+
+input {
+    margin-top: 10px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    background: #C0C0C0;
+}
+
+.img1 {
+    width: 100px;
+}
+
+.img2 {
+    width: 700px;
+}
+
+.img3 {
+    width: 700px;
+}
+
+.img4 {
+    width: 50px;
+    height: 50px;
+    margin-top: 234px;
+    margin-left: -205px;
+    position: absolute;
+}
+
+.img6 {
+    width: 50px;
+    height: 50px;
+    margin-top: 234px;
+    margin-left: -325px;
+}
+
+section {
+    padding: 60px 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+#inicio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+#inicio .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#inicio .text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.ins-container {
+    position: relative;
+    display: inline-block;
+}
+
+.ins-button {
+    position: absolute;
+    top: 49.5%;
+    left: -199px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.em-container {
+    position: relative;
+    display: inline-block;
+}
+
+.em-button {
+    position: absolute;
+    top: 49.5%;
+    left: -325px;
+    width: 50px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+@media (width > 1024px) {
+    #app {
+      display: flex;
+      max-width: 960px;
+      gap: 32px;
+    }
+  
+    main {
+      margin-top: 0;
+      flex: 1;
+    }
+  
+    h1 {
+      text-align: left;
+    }
+  
+    time.full {
+      display: block;
+    }
+  
+    time.short {
+      display: none;
+    }
+  }
+  
+  section .card-bg {
+    animation: appear 300ms;
+  }
+  
+  @keyframes appear {
+    from {
+      opacity: 0;
+    }
+  }
